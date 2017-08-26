@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+ </head>
+ <body>
+  <button onclick="alert('清理成功')">清理成功</button>
+ </body>
+ <script>
+ var n1=2,n2=5;
+var s1="2",s2="5";
+ var b1=true,b2=false;
+console.log(n1+n2);
+console.log(n1+s1);
+console.log(n1);
+console.log(n1+b1);
+console.log(s1+b1);
+		//"2"+String(true)
+		// "2"+"true" = 2true
+		console.log(n1-s1); 
+		console.log(n2-b2); 
+		console.log(n1+s1-b1);
+		console.log(n1+b1-s2);
+		console.log(n1-s2+b1);
+		console.log(s1+b2-n2);
+		console.log(s1+b2+n2);
+		console.log(typeof(NaN));
+		console.log("2"+undefined);
+		console.log(typeof(b1.toString()))
+		console.log(String(2));
+		console.log(Number("NaN"));
+		console.log(parseInt("哈哈1053"));
+		var width = "200px";
+		width = parseInt(width)+300+"px";
+		console.log(width);
+		var num=prompt("请输入一个数字");
+		alert(num);
+ //请用户输入工资
+		var money=Number(prompt("请输入薪资"));
+// 工资加1000
+		money = money+1000;
+ //弹出加薪后的工资
+		alert(money);
+		console.log(parseFloat("192.168.80.252"));
+		console.log(Number(true));
+		console.log(parseInt(true));
+       // console.log(parseInt(String(true)))
+		console.log(Number("30px"));
+		console.log(parseInt("30px"));
+		console.log(3+"")
+		console.log(!!3)
+ var money=Number(prompt("请输入薪资"));
+		alert("这个月的零花钱"+money%100);
+ </script>
+</html>
